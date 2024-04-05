@@ -1,0 +1,119 @@
+
+#menuNav ul li a {
+    color: azure;
+}
+
+#menuNav ul li a.active {
+    color: azure;
+    font-weight: bold;
+}
+
+#menuNav{
+    background-color: #161249d7
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{padding: 0px;
+    margin: px;
+    overflow-x: hidden;
+    background-position: inherit;
+    background-size: cover;
+    background-image: url(imagenescss/fondo1.jpg);
+}
+
+.container {
+    border-radius: 40px;
+    max-width: 420px;
+    height: 100vh;
+    max-height: 745px;
+    margin: 30px auto;
+    background-color: rgb(60, 145, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 10px 50px 5px rgb(00, 00, 00, 0.4);
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#resultado img {
+    width: 30%;
+    text-align: center;
+}
+
+#text-start {
+    font-size: 26px;
+    
+    padding: 20px;
+}
+
+#grupodebotones {
+display: flex;
+width: 100%;
+}
+
+#grupodebotones > button > img {
+    width: 100%;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto en el footer */
+    padding: 20px; /* Espacio interno del footer */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para el footer */
+
+
+
+footer {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #161249d7; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+     /* Espaciado interno superior e inferior */
+    text-align: center; /* Centrar el texto en el footer */
+    display: -ms-flexbox; /* Usar flexbox para distribuir elementos */
+    justify-content: space-between; /* Distribuir elementos de manera uniforme */
+}
+
+ul {justify-content:center;
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el espaciado interno de la lista */
+    display: flex; /* Usar flexbox para distribuir elementos */
+}
+
+ul li {
+    margin-right: 20px; /* Espaciado horizontal entre elementos de la lista */
+}
+
+ul li:last-child {
+    margin-right: 0; /* Eliminar el espaciado derecho del último elemento */
+}
+
+ul li a {
+    text-align: center;
+    color: white; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    font-weight: bold; /* Opcional: aplicar negrita a los enlaces */
+    
+}

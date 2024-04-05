@@ -1,0 +1,146 @@
+
+#menuNav ul li a {
+    color: azure;
+}
+
+#menuNav ul li a.active {
+    color: azure;
+    font-weight: bold;
+}
+
+#menuNav{
+    background-color: #161249d7
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-position: inherit;
+    background-size: cover;
+    background-image: url(imagenescss/fondo1.jpg);
+}
+.botoncalcular:hover{
+    color: white;
+
+}
+
+.container {
+   text-align: center;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#calculator {
+    margin-bottom: 20px;
+}
+input [type=number] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+    font-size: 22px;
+    border: 10px solid #020202;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #f78215;
+    color: rgb(12, 12, 12);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
+table {
+    margin:0 auto;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border-spacing: 5px;
+    padding: 8px;
+    border-radius :10px ;
+    font-size: 23px;
+    border: 2px solid #050505
+    }
+
+th {
+    background-color: #f78215;
+    color: azure;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f78215;
+}
+
+
+.footer {
+    margin-top: 30px;
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto en el footer */
+    padding: 20px; /* Espacio interno del footer */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para el footer */
+/* Estilos para el footer */
+
+footer {
+    margin-top: 30px;
+    background-color: #161249d7; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+     /* Espaciado interno superior e inferior */
+    text-align: center; /* Centrar el texto en el footer */
+    display: -ms-flexbox; /* Usar flexbox para distribuir elementos */
+    justify-content: space-between; /* Distribuir elementos de manera uniforme */
+}
+
+ul {justify-content:center;
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el espaciado interno de la lista */
+    display: flex; /* Usar flexbox para distribuir elementos */
+}
+
+ul li {
+    margin-right: 20px; /* Espaciado horizontal entre elementos de la lista */
+}
+
+ul li:last-child {
+    margin-right: 0; /* Eliminar el espaciado derecho del último elemento */
+}
+
+ul li a {
+    text-align: center;
+    color: white; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    font-weight: bold; /* Opcional: aplicar negrita a los enlaces */
+    
+}

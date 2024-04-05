@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#menuNav ul li a {
+    color: azure;
+}
+
+#menuNav ul li a.active {
+    color: azure;
+    font-weight: bold;
+}
+
+
+#menuNav{
+    background-color: #161249d7
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-position: inherit;
+    background-size: cover;
+    background-image: url(imagenescss/fondo1.jpg);
+}
+ 
+
+p,
+h1,
+select{
+    font-family: 'Roboto', sans-serif;
+}
+
+#carouselExample img {  
+    height: 435px;
+    
+}
+
+.botonCotizar {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background-color: #161249d7;
+    color: azure;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto en el footer */
+    padding: 20px; /* Espacio interno del footer */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para el footer */
+/* Estilos para el footer */
+
+footer {
+    margin-top: 30px;
+    background-color: #161249d7; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+     /* Espaciado interno superior e inferior */
+    text-align: center; /* Centrar el texto en el footer */
+    display: -ms-flexbox; /* Usar flexbox para distribuir elementos */
+    justify-content: space-between; /* Distribuir elementos de manera uniforme */
+}
+
+ul {justify-content:center;
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el espaciado interno de la lista */
+    display: flex; /* Usar flexbox para distribuir elementos */
+}
+
+ul li {
+    margin-right: 20px; /* Espaciado horizontal entre elementos de la lista */
+}
+
+ul li:last-child {
+    margin-right: 0; /* Eliminar el espaciado derecho del último elemento */
+}
+
+ul li a {
+    text-align: center;
+    color: white; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    font-weight: bold; /* Opcional: aplicar negrita a los enlaces */
+    
+}
+ 

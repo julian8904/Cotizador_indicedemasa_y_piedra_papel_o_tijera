@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="interfas.css">
+</head>
+<body>
+    
+    <nav id="menuNav" class="navbar navbar-expand-lg ">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"> 😁 Hotel In Medellin 😁 </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Indicedemasa.html">Indice de Masa Corporal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Indexppt.html">Piedra / Papel / Tijera</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <h1 style="color: #000; font-size: 25px;" class="text-center">Suite king swim-up frente al mar</h1>
+                    <img src="imagenescss/fachada.jpg" alt="" srcset="" height="435" width="" class="d-block w-100 mb-3"> 
+                    <p strong style="color: #000;" > Nuestro Hotel cuenta con las mejores instalaciones para que usted y su familia puedan disfrutar de su estancia en esta paradisiaca ciudad; pueden hacer uso de cualquiera de ellas sin ningún costo adicional; por favor comuníquese con nuestra ama de llaves para tener detalles sobre todos los servicios que le ofrecemos.
+                        Con la certeza de que su estancia en el Hotel Fiesta Posada Cancún será totalmente de su agrado quedo a sus órdenes y no dude en comunicarse conmigo para cualquier duda, comentario o sugerencia con gusto será escuchado y atendido de inmediato. <br>
+                    </p> 
+                     <br>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 style="color: #000; font-size: 25px;" class="text-center">Locaciones</h1>
+                    <div id="carouselExample" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenescss/baño1.avif" class="d-block w-100" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenescss/cafeteria1.avif" class="d-block w-100" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenescss/vistaalmar1.avif" class="d-block w-100" alt="Imagen 3">
+                            </div>
+                             <div class="carousel-item">
+                               <img src="imagenescss/vistaalmar.jpg" class="d-block w-100" alt="Imagen 4">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                </div>
+                  
+                    <div>
+                      <select id="tipoHabitacion" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Habitaciónes</option>
+                        <option value="1">Habitacion Queen</option>
+                        <option value="2">Habitacion King</option>
+                        <option value="3">Habitacion Suite</option>
+                      </select>
+
+                      <select id="numeroPersonas" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Numero de personas</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="5">Mas de 3 personas</option>
+                      </select>
+                      
+                      <select id="diasReserva" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Cantidad de dias</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="15">15</option>
+                        <option value="30">30</option>
+                      </select>
+                     
+                
+                     <button onclick="calcularCotizacion ()" class="botonCotizar">Cotizar</button>
+                     <div id="resultado"></div>
+                    </div>
+              </div>
+              
+         </div>
+        </div>
+
+      <footer>
+        <div class="row mx-auto col-12">
+         <ul>
+             <li ><a href="#">Términos de uso</a></li>
+             <li><a href="#">Política de privacidad y seguridad</a></li>
+             <li><a href="#">Anuncios basados en tus intereses</a></li>
+         </ul>
+         </div>
+         <p>© 2023 in Hotels International, Inc. Todos los derechos reservados.</p>
+       </footer>
+     <script src="cotizar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
